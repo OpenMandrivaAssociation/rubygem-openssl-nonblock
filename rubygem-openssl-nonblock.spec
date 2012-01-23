@@ -12,6 +12,7 @@ URL:		http://rev.rubyforge.org
 Source0:	http://gems.rubyforge.org/gems/%{rbname}-%{version}.gem
 BuildRequires:	rubygems 
 BuildRequires:	ruby-devel
+BuildRequires:	openssl-devel
 BuildRequires:	rubygem(rake)
 
 %description
