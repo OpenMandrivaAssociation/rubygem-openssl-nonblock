@@ -1,4 +1,4 @@
-# Generated from openssl-nonblock-0.2.1.gem by gem2rpm5 -*- rpm-spec -*-          
+# Generated from openssl-nonblock-0.2.1.gem by gem2rpm5 -*- rpm-spec -*-
 %define	rbname	openssl-nonblock
 
 Summary:	Non-blocking support for Ruby OpenSSL
@@ -13,7 +13,6 @@ Source0:	http://gems.rubyforge.org/gems/%{rbname}-%{version}.gem
 BuildRequires:	rubygems 
 BuildRequires:	ruby-devel
 BuildRequires:	openssl-devel
-BuildRequires:	rubygem(rake)
 
 %description
 Non-blocking support for Ruby OpenSSL
