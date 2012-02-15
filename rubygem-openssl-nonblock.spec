@@ -5,7 +5,7 @@ Summary:	Non-blocking support for Ruby OpenSSL
 Name:		rubygem-%{rbname}
 
 Version:	0.2.1
-Release:	1
+Release:	2
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://rev.rubyforge.org
