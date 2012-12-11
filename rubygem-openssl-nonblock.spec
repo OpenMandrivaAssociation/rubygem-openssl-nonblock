@@ -46,3 +46,16 @@ Documents, RDoc & RI documentation for %{name}.
 
 %files doc
 %doc %{ruby_gemdir}/doc/%{rbname}-%{version}
+
+
+%changelog
+* Wed Feb 15 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.2.1-2
++ Revision: 774513
+- drop build dependency on rake as it's now provided by ruby's standard library
+- mass rebuild of ruby packages against ruby 1.9.1
+
+* Mon Jan 23 2012 Alexander Khrukin <akhrukin@mandriva.org> 0.2.1-1
++ Revision: 767170
+- BR:openssl-devel
+- imported package rubygem-openssl-nonblock
+
